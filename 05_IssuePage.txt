@@ -1,0 +1,67 @@
+
+#******************** Settings ************************
+
+*** Settings ***
+Documentation	Issue Test scenario. CRUD Operation: Create, Read, Update, Delete
+
+# TODO: Write Precondition and Postcondition, Tags 
+
+Pre Condition	Tips: Project must be created by the user before 
+Post Condition	
+Tags
+
+#******************* Common Variables ********************
+
+
+*** Variables ***
+
+# NOTE: Please Remove your login credential before uploading Assignments
+
+# TODO: Write Issue creation field variables, Updated name of the issue
+
+
+
+#******************** Test Cases *************************
+
+*** Test Case ***
+
+# TODO: Write Positive Test Cases and Test Process steps
+
+# Positive Test examples are below write test process steps for each below test case
+
+	Create issue,  Test not working
+ 
+Open
+ 
+
+Confidential
+   Issue created just now by Mariela Mihaylova
+
+ 	Update name of issue, Edit - Changing name 
+ 	Test not available
+
+ 
+Open
+ 
+
+Confidential
+   Issue created 1 minute ago by Mariela Mihaylova
+
+   Mariela Mihaylova changed title from Test not working to Test not available 2 minutes ago
+
+
+
+	Create second issue with privious updated name  
+	Similar items
+1
+These existing items have a similar title and may represent potential duplicates.
+
+Test not available
+
+#1 • opened
+2 minutes ago
+by
+user avatar
+
+
+    Delete first issue  Delete successful
